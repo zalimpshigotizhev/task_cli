@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "taskcli"
+version = "0.1.0"
+description = ""
+authors = ["zalim <zalimpshigotizhev@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+rich = "^13.9.4"
+pytest = "^8.3.4"
+pytest-cov = "^6.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
